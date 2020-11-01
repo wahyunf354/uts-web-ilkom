@@ -1,0 +1,102 @@
+/* Hero */
+#hero-sejarah .jumbotron {
+  background-image: url(http://localhost/website-ilkom/assets/illustrasi/ilustrasi-sejarah.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  background-color: white;
+}
+
+#hero-sejarah .jumbotron h2.h2 {
+  max-width: 60%;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d3547;
+}
+
+#hero-sejarah .jumbotron h1.display-4 {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  color: #1d3547;
+  opacity: 5%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+}
+
+/* end Hero */
+
+/* sejarah */
+#sejarah {
+  margin-bottom: 40px;
+}
+
+#sejarah article {
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-align: justified;
+  margin-bottom: 10px;
+}
+/* end sejarah */
+
+/* animation */
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2000ms;
+  --animate-delay: 0.9s;
+}
+
+/* end animation */
+
+/* Media Query Desktop */
+@media only screen and (min-width: 768px) {
+  #hero-sejarah .jumbotron {
+    background-image: url(http://localhost/website-ilkom/assets/illustrasi/ilustrasi-sejarah.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: white;
+  }
+
+  #hero-sejarah .jumbotron h2.h2 {
+    font-family: Nunito;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1d3547;
+  }
+
+  #hero-sejarah .jumbotron h1.display-4 {
+    font-family: Nunito Sans;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 196px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 450px;
+  }
+
+  #sejarah article {
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    margin-bottom: 10px;
+  }
+}
+/* End Media Query Desktop */
