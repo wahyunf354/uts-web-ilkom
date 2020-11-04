@@ -25,7 +25,7 @@
   />
 
   <!-- LINK TO CSS -->
-  <link rel="stylesheet" href="http://localhost/website-ilkom/css/style.css">
+  <link rel="stylesheet" href="http://localhost/uts-web-ilkom/css/style.css">
 </head>
 
 <body>
@@ -42,8 +42,8 @@
           case "home":
             include "home.php";
             break;
-          case "profil":
-            include "profil.php";
+          case "visi-misi":
+            include "visi&misi.php";
             break;
           case "about":
             include "about.php";
@@ -82,7 +82,7 @@
     crossorigin="anonymous"></script>
 
   <!-- SCRIPT JAVASCRIPT -->
-  <script src="http://localhost/website-ilkom/js/script.js"></script>
+  <script src="http://localhost/uts-web-ilkom/js/script.js"></script>
 </body>
 
 </html>

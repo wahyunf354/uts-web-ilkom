@@ -12,6 +12,12 @@
                 case "contact" :
                   echo "<h2 class=\"h2  animate__animated animate__fadeInLeft\">Kontak Ilmu Komputer UNIMED</h2>";
                   break;
+                case "visi-misi" :
+                  echo "<h2 class=\"h2  animate__animated animate__fadeInLeft\">Visi-Misi Ilmu Komputer UNIMED</h2>";
+                  break;
+                case "about" :
+                  echo "<h2 class=\"h2  animate__animated animate__fadeInLeft\">About Ilmu Komputer UNIMED</h2>";
+                  break;
               }
             }
           ?>

@@ -1,9 +1,10 @@
+<!-- TODO: incude javascrip to change color text menu -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid px-md-5">
       <figure class="mr-md-3">
-        <img class="img-fluid" src="http://localhost/website-ilkom/assets/logo/logo.png" alt="Logo UNIMED">
+        <img class="img-fluid" src="http://localhost/uts-web-ilkom/assets/logo/logo.png" alt="Logo UNIMED">
       </figure>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="http://localhost/uts-web-ilkom/">
         <h3>Ilmu Komputer</h3>
         <h6>Universitas Negeri Medan</h6>
       </a>
@@ -16,8 +17,8 @@
         <ul class="navbar-nav ml-auto pr-3">
 
           <!-- Menu beranda -->
-          <li class="nav-item active">
-            <a class="nav-link" href="http://localhost/website-ilkom/">Beranda</a>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost/uts-web-ilkom/">Beranda</a>
           </li>
 
           <!-- Menu Profil -->
@@ -27,20 +28,20 @@
               Profil
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="http://localhost/website-ilkom/index.php/?page=sejarah">Sejarah</a>
+              <a class="dropdown-item" href="http://localhost/uts-web-ilkom/index.php/?page=sejarah">Sejarah</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Visi & Misi</a>
+              <a class="dropdown-item" href="http://localhost/uts-web-ilkom/index.php/?page=visi-misi">Visi & Misi</a>
             </div>
           </li>
 
           <!-- Menu Fasilitas -->
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="http://localhost/uts-web-ilkom/index.php/?page=about">About</a>
           </li>
 
           <!-- Menu Penelitian -->
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost/website-ilkom/index.php/?page=contact">Contact</a>
+            <a class="nav-link" href="http://localhost/uts-web-ilkom/index.php/?page=contact">Contact</a>
           </li>
 
         </ul>
